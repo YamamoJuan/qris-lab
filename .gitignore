@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+
+# Real QRIS samples contain merchant identifiers (NMID, merchant PAN, name, city).
+# NEVER commit them. Keep them under samples/private/.
+samples/private/
+samples/**/*.jpeg
+samples/**/*.jpg
+samples/**/*.png
+samples/**/*.txt
+!samples/README.md
+!samples/.gitkeep
+
+# Generated QR test output
+out/
+*.qr.png
